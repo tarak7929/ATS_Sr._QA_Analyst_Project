@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34837" started-at="2020-02-04T03:36:02Z" finished-at="2020-02-04T03:36:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34837" started-at="2020-02-04T03:36:02Z" finished-at="2020-02-04T03:36:37Z">
+      <class name="com.testing.TestFile">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestFile@6e06451e]" name="beforeMethod" is-config="true" duration-ms="13980" started-at="2020-02-03T22:36:02Z" finished-at="2020-02-03T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createProjectTest()[pri:0, instance:com.testing.TestFile@6e06451e]" name="createProjectTest" duration-ms="19835" started-at="2020-02-03T22:36:16Z" finished-at="2020-02-03T22:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.TestFile@6e06451e]" name="afterMethod" is-config="true" duration-ms="1021" started-at="2020-02-03T22:36:36Z" finished-at="2020-02-03T22:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProjectTest status=SUCCESS method=TestFile.createProjectTest()[pri:0, instance:com.testing.TestFile@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.TestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
