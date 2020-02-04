@@ -35,7 +35,7 @@ public class PageFile extends LocatorsFile implements DataFile{
 			System.setProperty("webdriver.chrome.driver", "C:/Selenium_Workspace/project_ATS/Project_Data/chromedriver.exe");
 			driver = new ChromeDriver();
 		}else {
-			System.setProperty("webdriver.ie.driver", "C:\\Selenium_Workspace\\project_ATS\\Project_Data\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:/Selenium_Workspace/project_ATS/Project_Data/IEDriverServer.exe");
 		    driver = new InternetExplorerDriver();
 		}
 		
